@@ -1,0 +1,308 @@
+/*naranja = d35d33*/
+
+body
+{
+  font-family: Helvetica;
+  margin: 0;
+}
+section h1 strong
+{
+ color: #4c0900;
+}
+
+h2
+{
+  color: #d35d33;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.logo
+{
+  margin-left: 10px;
+}
+
+.hero
+{
+  height: 300px;
+  background-color: #d35d33;
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image
+{
+  object-fit: cover;
+  height: inherit;
+}
+
+.portfolio
+{
+  background: #fafafa;
+  padding: 20px;
+}
+
+.project
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-date
+{
+  margin: 10px 0;
+}
+
+.project-description
+{
+  font-size: 18px;
+}
+
+.project-title
+{
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-details
+{
+  width: 500px;
+}
+
+.header 
+{
+  background-color: #d35d33;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ol,
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure
+{
+  margin: 0;
+}
+
+.menu
+{
+  height: inherit;
+}
+
+.header ol
+{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li
+{
+  height: inherit;
+}
+
+.header a
+{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+h1,
+h2,
+h3
+{
+  font-family: 'Open Sans', sans-serif; 
+}
+
+p
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1
+{
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 42px;
+  letter-spacing: -.2px;
+  margin: 0;
+}
+
+.footer
+{
+  color: white;
+  background-color: #3a557c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img
+{
+  vertical-align: middle;
+}
+
+.footer a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.university
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.university-title
+{
+  margin-left: 20px;
+}
+
+.activity
+{
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff1f0; 
+}
+
+.activity img
+{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.activity-detail
+{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center
+}
+
+.activity-title
+{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.activity-description
+{
+  text-align: left;
+}
+
+.contact
+{
+  background: #d35d33;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.contact h3
+{
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.social-link
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+
+.social-link.instagram
+{
+  background-image: url('../images/instagram.svg');
+}
+.social-link.linkedin
+{
+  background-image: url('../images/linkedin.svg');
+}
+.social-link.twitter
+{
+  background-image: url('../images/twitter.svg');
+}
+.social-link.facebook
+{
+  background-image: url('../images/facebook.svg');
+}
+
+.form-email input
+{
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../images/envelope_gray.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button
+{
+  display: block;
+  border-style: solid;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form-email h3
+{
+  font-family: Helvetica;
+}
+
+.container
+{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  flex: 1;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}

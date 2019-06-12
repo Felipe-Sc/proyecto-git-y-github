@@ -83,12 +83,12 @@ h2
 
 .header 
 {
-  background-color: #d35d33;
+  background-color: #3a557c;
   color: white;
   display: flex;
   height: 70px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 ol,
